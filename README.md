@@ -24,7 +24,7 @@ The Website has a very simple and interactive interface which helps the users se
 
 ## Application Link & Future Scope :
 
-The app is currently in the Alpha testing phase for Indian users, You can access the app : .
+The app has been sent into deployment, You can access the app using this link: .
 We plan to scale this website and make a hub for student from all walks of life to come and present their skills to the market.
 
 ## Frontend
