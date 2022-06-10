@@ -74,6 +74,10 @@
               "browserTarget": "HireHay:build:development"
             }
           },
+          "options":{
+            "browserTarget": "HireHay:build",
+            "proxyConfig": "src/proxy.conf.json"
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -102,5 +106,8 @@
       }
     }
   },
-  "defaultProject": "HireHay"
+  "defaultProject": "HireHay",
+  "cli": {
+    "analytics": false
+  }
 }

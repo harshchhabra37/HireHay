@@ -1,0 +1,21 @@
+.list{
+	display: flex;
+	margin: 90px 10px 0px;
+	justify-content: center;
+}
+
+.table-view{
+	width: 90%;
+	border: 1px solid lightgray;
+}
+
+.filter{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter >div,button{
+	flex: 0 1 auto;
+	margin: 5px;
+}

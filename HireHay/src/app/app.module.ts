@@ -1,9 +1,11 @@
 import { LandingPageModule } from './landing-page-module/landing-page-module-routing.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppliedListComponent } from './applied-list/applied-list.component';
+import {FormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
