@@ -1,6 +1,11 @@
 # HireHay
+A recruitment tool so that potetntial employers can hunt,vet and discover new students as their potential new employee.
 
+## Problem Statement
+There is no concrete method for employers to check the students and their skillsets and systematically make hiring decisions
 
+## Proposed Solution
+This project is basically a website that aims to bridge that gap between the students and the employers by acting as an intermediary, the employer will have access to the list of potential candidate and can make remarks or hire them using this platform
 
 ## Frontend
 
