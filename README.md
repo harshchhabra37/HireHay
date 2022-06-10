@@ -1,27 +1,33 @@
 # HireHay
+A recruitment tool so that potetntial employers can hunt, vet and discover new students as their potential new employee.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+## Problem Statement
+There is no concrete method for employers to check the students and their skillsets and systematically make hiring decisions.
 
-## Development server
+## Proposed Solution
+This project is basically a website that aims to bridge that gap between the students and the employers by acting as an intermediary, the employer will have access to the list of potential candidate and can make remarks or hire them using this platform.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Functionality & Concepts used :
 
-## Code scaffolding
+The website has a very user friendly UI that can accessed by employers readily to make their hiring decsions. Following are few Web and Firebase concepts used to achieve the functionalities in website :
+<br> 
+<ul>
+<li> Modules :To group the components, directives, pipes, and services, which are related to the application.</li>
+<li> Components : to add header, footer, search feature in the website. Header and footer components are reused in the website. </li>
+<li> Directives : Define how the view components are placed. It also describes the overall structure of the website components. </li>
+<li> Databinding : Show the synchronisation between model and view. It populates the websites after mapping the model and view of each website page.
+<li> Router :To handle the navigation from one view to the next.</li>
+<li> Services : tells angular that the class is a service and can be injected into components that need that service.</li>
+</li>
+<li> Firebase Auth : To authenticate users to the website.</li>
+<li> Firebase Hosting - To host the website.</li>
+</ul>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Application Link & Future Scope :
 
-## Build
+You can access the app using this link: 
+We plan to scale this website and make a hub for student from all walks of life to come and present their skills to the market.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Frontend
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
