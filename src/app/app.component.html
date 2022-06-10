@@ -1,0 +1,47 @@
+<mat-toolbar color="primary">
+  Sign Up Flow with Firebase
+  <ng-container *ngIf="user$ | async as user; else loginButton">
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myprofile" >
+      <img
+        width="30"
+        height="30"
+        class="profile-image-toolbar"
+        [src]="user.photoURL ?? '../assets/images/image-placeholder.png'"
+      />
+      {{ user.displayName }}
+      <mat-icon></mat-icon>
+    </button>
+  </ng-container>
+  <ng-template #loginButton>
+    <button mat-button routerLink="login">
+      <mat-icon>login</mat-icon>
+    </button>
+  </ng-template>
+</mat-toolbar>
+
+<div class="content">
+  <router-outlet>
+  </router-outlet>
+</div>
+<div style="position: absolute !important;right:12px !important;top:10px !important;">
+  <div class="modal fade" id="myprofile" role="dialog" style="opacity: 1;">
+    <div class="modal-dialog" style="right: 68px;position: absolute;top: 73px;display: block;">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="justify-content: center;align-items: center;display: flex;"> 
+        <div class="modal-body" style="width: 88px;margin: auto;padding: 10px;">
+          <div style="margin-bottom: 5px;">
+            <a href="/profile">
+              <button>
+                Profile
+              </button>
+            </a>
+          </div>
+          <button (click)="logout()">
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
