@@ -25,7 +25,7 @@ The website has a very user friendly UI that can accessed by employers readily t
 
 ## Application Link & Future Scope :
 
-The app has been sent into deployment, You can access the app using this link: .
+The app has been sent into deployment, You can access the app [here](ADD LINK HERE).
 We plan to scale this website and make a hub for student from all walks of life to come and present their skills to the market.
 
 ## Frontend
